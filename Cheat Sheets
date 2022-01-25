@@ -9,10 +9,17 @@ ssh : hydra -l root -P passwords.txt [-t 32] <IP> ssh
 smb : hydra -l Administrator -P words.txt 192.168.1.12 smb -t 1  , nmap --script smb-brute -p 445 <IP>
 smtp : hydra -l <username> -P /path/to/passwords.txt <IP> smtp -V
 mysql : hydra -L usernames.txt -P pass.txt <IP> mysql
+rdp : hydra -V -f -L <userslist> -P <passwlist> rdp://<IP>
 
 SQLMAP Cheatsheet :
 https://www.security-sleuth.com/sleuth-blog/2017/1/3/sqlmap-cheat-sheet
 
 Wireshark Cheatsheet :
 https://www.stationx.net/wireshark-cheat-sheet/
+
+ADB :
+adb port : 55555
+adb : https://book.hacktricks.xyz/pentesting/5555-android-debug-bridge
+
+
 
