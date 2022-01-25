@@ -1,0 +1,14 @@
+NMAP Cheat sheet :-
+https://github.com/vineet00987/CEH-Prepration-Notes.git
+
+Bruteforce Cheatsheet :
+https://book.hacktricks.xyz/brute-force --> ALL
+ftp : hydra -l root -P passwords.txt [-t 32] <IP> ftp
+ssh : hydra -l root -P passwords.txt [-t 32] <IP> ssh
+smb : hydra -l Administrator -P words.txt 192.168.1.12 smb -t 1  , nmap --script smb-brute -p 445 <IP>
+smtp : hydra -l <username> -P /path/to/passwords.txt <IP> smtp -V
+mysql : hydra -L usernames.txt -P pass.txt <IP> mysql
+
+SQLMAP Cheatsheet :
+https://www.security-sleuth.com/sleuth-blog/2017/1/3/sqlmap-cheat-sheet
+
