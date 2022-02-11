@@ -24,5 +24,14 @@ ADB :
 adb port : 55555
 adb : https://book.hacktricks.xyz/pentesting/5555-android-debug-bridge
 
-
-
+TOOLS : --------------
+1- NMap
+2- Hydra
+3- WPScan
+4- SQLMap
+5- Owasp ZAP
+6- Veracrypt
+7- Wireshark
+8- CrypTool
+9- BCText Encoder
+10- adb
